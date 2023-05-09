@@ -1,5 +1,5 @@
 
-/*splash*/ 
+/*splash*/
 
 .inicio{
     position: fixed;
@@ -11,7 +11,7 @@
     background-color: black;
     transition: 1s;
     }
-    
+
     .logo-header{
         position: absolute;
         top: 40%;
@@ -57,10 +57,10 @@ html, body{
     padding: 0;
 }
 .main{
-    background-image: URL(https://i2-prod.mirror.co.uk/incoming/article5241508.ece/ALTERNATES/n615/MAIN-Taylor-Swift-and-Ed-Sheeran.jpg);
+    background-image: URL('../IMG/pizza9.png');
 overflow: hidden;
 height: 80vh;
-border: 1px solid white;    
+/*border: 1px solid white;*/
 }
 
 .footer{
