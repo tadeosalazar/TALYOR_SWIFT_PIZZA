@@ -14,21 +14,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = mysqli_stmt_get_result($statement);
 
     if (mysqli_num_rows($result) == 1) {
+        $row = mysqli_fetch_assoc($result);
+        $rol = $row['Rol'];
+
         // Inicio de sesión exitoso
-        // Redireccionar al index.html con mensaje de éxito
-        header("Location: INDEX.html?mensaje=Se inició sesión correctamente");
+        // Redireccionar al index.html con mensaje de éxito y rol de usuario
+        header("Location: INDEX.php?mensaje=Se inició sesión correctamente&rol=$rol");
         exit();
     } else {
         // Credenciales incorrectas
         // Redireccionar a insesion.php con mensaje de error
-        header("Location: insesion.php?mensaje=Lo sentimos, la contraseña o el usuario proporcionados no coinciden");
+        header("Location: Insesion.php?mensaje=Lo sentimos, la contraseña o el usuario proporcionados no coinciden");
         exit();
     }
 }
 
 mysqli_close($enlace);
 ?>
-
 
 
 

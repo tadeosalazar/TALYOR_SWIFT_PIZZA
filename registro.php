@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['registro'])){
+if(isset($_POST['registro.php'])){
     $enlace = mysqli_connect("localhost", "root", "", "swiftpizza");
 
     if(!$enlace){
@@ -9,8 +9,13 @@ if(isset($_POST['registro'])){
     $nombre = $_POST['nombre'];
     $correo = $_POST['email'];
     $password = $_POST['password'];
+    $rol = $_GET['rol'];
 
-    $insertarDatos = "INSERT INTO datos VALUES ('$nombre', '$correo', '$password', '')";
+    if (empty($rol)) {
+        $rol = 'usuario';
+    }
+
+    $insertarDatos = "INSERT INTO datos (`Nombre,`, `Correo,`, `Password`, `Rol`) VALUES ('$nombre', '$correo', '$password', '$rol')";
     $ejecutarInsertar = mysqli_query($enlace, $insertarDatos);
 
     if($ejecutarInsertar){
