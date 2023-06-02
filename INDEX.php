@@ -34,19 +34,14 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="INDEX.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="INDEX.php">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="comidas.html">A degustar</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="lab1.html">Contactanos</a>
-                <?php
-    if (isset($_GET['rol'])) {
-        $rol = $_GET['rol'];
-        echo "<p>¡Bienvenido, $rol!</p>";
-    }
-    ?>
+                
               </li>
 
             </ul>
@@ -61,6 +56,13 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="Insesion.php">Iniciar Sesión</a>
+                  <?php
+    if (isset($_GET['rol'])) {
+        $rol = $_GET['rol'];
+        echo "<p>¡Bienvenido, $rol!</p>";
+    }
+    ?>
+                  
               </li>
           </ul>
           </div>
