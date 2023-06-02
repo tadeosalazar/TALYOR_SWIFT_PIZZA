@@ -58,6 +58,10 @@ html, body{
 }
 .main{
     background-image: URL('../IMG/pizza9.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    overflow: hidden;
 overflow: hidden;
 height: 80vh;
 /*border: 1px solid white;*/
