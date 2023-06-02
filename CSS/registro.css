@@ -1,7 +1,9 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(to bottom, #000000 50%, #F5C74F 50%);
+	background:url(../IMG/fondob2.png);
+	background-repeat: no-repeat;
+    background-size: cover;
 	height: 100vh;
 	display: flex;
 	align-items: center;
