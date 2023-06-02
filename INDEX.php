@@ -10,7 +10,7 @@
     <!-- CSS Style -->
     <link rel="stylesheet" href="CSS/style.css">
     <!-- CSS Normalize -->
-   
+
     <!-- javascript -->
     <link rel="stylesheet" href="JS/app.js">
 
@@ -52,15 +52,15 @@
                 </form>
               </li>
             </ul>
-           
+
             <ul class="navbar-nav">
               <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="Insesion.php">Iniciar Sesión</a>
 
-                  
+
               </li>
           </ul>
-          
+
             <ul class="navbar-nav">
             <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="Insesion.php">
