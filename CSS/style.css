@@ -1,6 +1,7 @@
 
 /*splash*/
 
+/*
 .inicio{
     position: left;
     z-index: 1;
@@ -13,7 +14,9 @@
     background-size: cover;
     transition: 1s;
     }
+*/
 
+/*
     .logo-header{
         position: absolute;
         top: 40%;
@@ -22,6 +25,7 @@
         color: white;
         font-family: 'Montserrat', sans-serif;
     }
+*/
 
 .logo {
     position: relative;
@@ -60,11 +64,9 @@ html, body{
     background-image: url(../IMG/granfondo.png);
 }
 .main{
-    background-image: URL('../IMG/pizza9.png');
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center; 
-    overflow: hidden;
+    background-image: URL('../IMG/granfondo1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 overflow: hidden;
 height: 100vh;
 /*border: 1px solid white;*/
@@ -93,8 +95,4 @@ height: 100vh;
 
 b{
     font-size:xx-large
-}
-
-.nav-item-bienvenido {
-    color: #ffffff; /* Cambia el color según tus preferencias */
 }
