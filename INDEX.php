@@ -52,18 +52,30 @@
                 </form>
               </li>
             </ul>
+           
             <ul class="navbar-nav">
               <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="Insesion.php">Iniciar Sesión</a>
-                  <?php
-    if (isset($_GET['rol'])) {
-        $rol = $_GET['rol'];
-        echo "<p>¡Bienvenido, $rol!</p>";
-    }
-    ?>
+
                   
               </li>
           </ul>
+          
+            <ul class="navbar-nav">
+            <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="Insesion.php">
+        <span class="nav-item-bienvenido">
+            <?php
+            if (isset($_GET['rol'])) {
+                $rol = $_GET['rol'];
+                echo "¡Bienvenido, $rol!";
+            }
+            ?>
+        </span>
+    </a>
+</li>
+
+            </ul>
           </div>
         </div>
       </nav>
