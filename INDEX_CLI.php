@@ -14,63 +14,43 @@
     <!-- javascript -->
     <link rel="stylesheet" href="JS/app.js">
 
-    <style>
-    .align-right {
-      text-align: right;
-    }
-  </style>
 
 </head>
 <body>
-  <!--
     <div class="inicio">
         <h1 class="logo-header">
             <span class="logo">TAYLOR'S </span><span class="logo">  &nbsp;PIZZA  </span>
         </h1>
-    </div>
-    -->
 
+    </div>
 
     <!-- bootstrap-navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="INDEX.php" style="font-family: 'Lucida Grande';"><img src="IMG/logo.png" height="30" width="30"></a>
+          <a class="navbar-brand" href="#" style="font-family: 'Lucida Grande';"><img src="IMG/logo.png" height="30" width="30">   PIZZA SWIFT</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <!--<li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="INDEX.php">Inicio</a>
-              </li>-->
-              <li class="nav-item">
-                <a class="nav-link" href="comidas.html">Degustar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="lab1.html">Contacto</a>
+                <a class="nav-link" href="comidas.html">A degustar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lab1.html">Contactanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lab1.html">¡Bienvenido Usuario!</a>
               </li>
 
             </ul>
-
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <form action="registro.php" method="POST">
-                  <a type="submit" class="nav-link active" aria-current="page" href="registro.php">Registrarse</a>
-                </form>
-              </li>
-            </ul>
-
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="Insesion.php">Iniciar sesión</a>
-
-
-              </li>
-          </ul>
 
             <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Insesion.php">
+    <a class="nav-link active" aria-current="page" href="Insesion.php">
         <span class="nav-item-bienvenido">
             <?php
             if (isset($_GET['rol'])) {
@@ -90,14 +70,13 @@
       <!-- Imagne inicial- seccion 1 -->
 <div class="main">
     <h1 class="title" style="color: white;">
+        PIZZA SWIFT
     </h1>
 </div>
 <div class="footer">
     <b>SOBRE NOSOTROS</b>
     <div>
-      <p>PIZZA SWIFT es una empresa que busca proporcionar una experiencia gastronómica única y
-        satisfacer el paladar de nuestros clientes con pizzas frescas y deliciosas, elaboradas con
-        los ingredientes de la más alta calidad y servidas en un ambiente acogedor y agradable
+      <p>
       </p>
     </div>
 </div>
