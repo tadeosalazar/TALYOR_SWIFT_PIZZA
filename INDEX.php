@@ -41,6 +41,12 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="lab1.html">Contactanos</a>
+                <?php
+    if (isset($_GET['rol'])) {
+        $rol = $_GET['rol'];
+        echo "<p>¡Bienvenido, $rol!</p>";
+    }
+    ?>
               </li>
 
             </ul>
