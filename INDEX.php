@@ -41,7 +41,10 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="lab1.html">Contactanos</a>
+<<<<<<< Updated upstream
                 
+=======
+>>>>>>> Stashed changes
               </li>
 
             </ul>
