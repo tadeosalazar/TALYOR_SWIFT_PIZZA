@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['registro'])){
+if(isset($_POST['registro.php'])){
     $enlace = mysqli_connect("localhost", "root", "", "swiftpizza");
 
     if(!$enlace){

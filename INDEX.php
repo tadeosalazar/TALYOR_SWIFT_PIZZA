@@ -54,7 +54,7 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <form action="registro.php" method="POST">
-                  <a type="submit" class="nav-link active" aria-current="page">Registrarse</a>
+                  <a type="submit" class="nav-link active" aria-current="page" href="registro.php">Registrarse</a>
                 </form>
               </li>
             </ul>
