@@ -10,7 +10,7 @@
     <!-- CSS Style -->
     <link rel="stylesheet" href="CSS/style.css">
     <!-- CSS Normalize -->
-    <link rel="stylesheet" href="CSS/normalize.css">
+   
     <!-- javascript -->
     <link rel="stylesheet" href="JS/app.js">
 
